@@ -1,7 +1,8 @@
-public class profesor extends persona{
+public class profesor extends persona {
     String ndespacho;
-    public profesor(){
-        super("","","");
+
+    public profesor() {
+        super("", "", "");
     }
 
     public profesor(String nombre, String apellidos, String nif, String ndespacho) {
@@ -9,9 +10,14 @@ public class profesor extends persona{
         this.ndespacho = ndespacho;
     }
 
+    public profesor(String nombre, String apellidos, String nif, direccion direccion, String ndespacho) {
+        super(nombre, apellidos, nif, direccion);
+        this.ndespacho = ndespacho;
+    }
+
     @Override
     public String toString() {
-        return "profesor [ndespacho=" + ndespacho + "]";
+        return super.toString() + "profesor [despacho=" + ndespacho + "]";
     }
 
 }

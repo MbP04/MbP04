@@ -1,22 +1,25 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class test {
+public class test_uni {
     public static void main(String[] args) {
-        List<persona> listaPersonas = new ArrayList<>();
+        List<persona> personas = new ArrayList<>();
 
-        direccion direccion1 = new direccion("Calle 1", "Ciudad 1", "12345", "Pais 1");
-        estudiante estudiante1 = new estudiante("Estudiante1", "Apellido1", "12345678A", 1);
-        //estudiante1.setdireccion(direccion1);
+        // Añadir estudiantes a la lista
+        direccion direccion1 = new direccion("Calle Colon", "Valencia", "12345",
+                "España");
+        estudiante estudiante1 = new estudiante("Marc", direccion1, "Burguera", "12345678A", 1);
+        personas.add(estudiante1);
+        estudiante estudiante2 = new estudiante("Alvaro", direccion1, "Escartí", "87654321B", 2);
+        personas.add(estudiante2);
+        profesor profesor1 = new profesor("Gines", "Martines", "98765432C", direccion1, "123");
+        personas.add(profesor1);
+        profesor profesor2 = new profesor("Vicent", "Tatay", "65432189D", direccion1, "456");
+        personas.add(profesor2);
 
-        profesor profesor1 = new profesor("Profesor1", "Apellido2", "87654321B", "Despacho123");
-
-        listaPersonas.add(estudiante1);
-        listaPersonas.add(profesor1);
-
-        // Realizar operaciones con la lista de personas, por ejemplo, imprimir información
-        for (persona persona : listaPersonas) {
-            System.out.println(persona.toString());
+        // Imprimir la lista de personas
+        for (persona persona : personas) {
+            System.out.println(persona);
         }
     }
 }
