@@ -8,9 +8,8 @@ public class test {
         //vehiculo veh = new vehiculo();
         boolean i = true;
         int opc;
-
+        System.out.println("\033[H\033[2J");
         while (i) {
-            System.out.println("\033[H\033[2J");
             System.out.println("VEHICULOS");
             System.out.println("===========");
             System.out.println("1.Anda en bicicleta");
@@ -24,14 +23,10 @@ public class test {
             opc = sc.nextInt();
             switch (opc) {
                 case 1:
-                    int distanciaBici = sc.nextInt();    
-                    bici.and(distanciaBici);
-                    System.out.println("Has recorrido [BICI]: " + distanciaBici + "km");
+                    bici.and(50);                      
                     break;
                 case 2:
-                    int distanciaCoche = sc.nextInt();    
-                    coch.and(distanciaCoche);
-                    System.out.println("Has recorrido [COCHE]: " + distanciaCoche + "km");
+                    coch.and(100);
                     break;
                 case 3:
                     System.out.println("Km Totales [BICI]: " + bici.getKilometrosRecorridos());
@@ -48,7 +43,6 @@ public class test {
                 case 7:
                     i = false;
                     break;
-
                 default:
                     System.out.println("No has puesto la opcion correcta");
                     break;

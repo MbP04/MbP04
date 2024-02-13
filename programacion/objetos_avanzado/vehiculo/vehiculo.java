@@ -1,6 +1,6 @@
 public class vehiculo {
-    static int vehiculosCreados = 0;
-    static int kilometrosTotales = 0;
+    public static int vehiculosCreados = 0;
+    public static int kilometrosTotales = 0;
     int kilometrosRecorridos;
 
     public vehiculo() {
