@@ -11,7 +11,7 @@ public class persona{
     }
 
     public persona(String nombre, String apellidos, String nif, String direccion) {
-        this(nombre, apellidos, nif, direccion);
+        this(nombre, apellidos, nif);
         this.direccion = direccion;
     }
 }
