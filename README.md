@@ -17,6 +17,13 @@
     </a>
 </p>
 
+- **Back-End Development**:
+<p align="center">
+    <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=sql" />
+    </a>
+</p>
+
 - **Frameworks**:
 <p align="center">
     <a href="https://skillicons.dev">
