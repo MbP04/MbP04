@@ -4,7 +4,7 @@
     
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=java,py,bash,powershell" />
+        <img src="https://skillicons.dev/icons?i=java,py,bash,powershell,php" />
     </a>
 </p>
 
@@ -17,21 +17,12 @@
     </a>
 </p>
 
-- **Back-End Development**:
-<p align="center">
-    <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=SQL" />
-    </a>
-</p>
-
 - **Frameworks**:
 <p align="center">
     <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=vue" />
     </a>
 </p>
-  
-
   
 
 <br>
