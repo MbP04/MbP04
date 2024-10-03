@@ -16,6 +16,13 @@
         <img src="https://skillicons.dev/icons?i=html,css" />
     </a>
 </p>
+
+- **Frameworks**:
+<p align="center">
+    <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=vue" />
+    </a>
+</p>
   
 
   
