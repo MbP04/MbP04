@@ -20,7 +20,7 @@
 - **Back-End Development**:
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=sql" />
+        <img src="https://skillicons.dev/icons?i=SQL" />
     </a>
 </p>
 
