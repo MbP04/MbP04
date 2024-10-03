@@ -4,7 +4,7 @@
     
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=java,py,bash,powershell,js" />
+        <img src="https://skillicons.dev/icons?i=java,py,bash,powershell" />
     </a>
 </p>
 
@@ -13,7 +13,7 @@
 - **Front-End Development**:
 <p align="center">
     <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=html,css" />
+        <img src="https://skillicons.dev/icons?i=html,css,js" />
     </a>
 </p>
 
